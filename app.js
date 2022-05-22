@@ -5,6 +5,10 @@ const express = require('express');
 const path = require ('path'); 
 const cors = require('cors');
 
+//HEROKU
+require('dotenv').config();
+
+
 //Part #1, No.2: added body-parser, which was the missing third party module
 const bodyParser = require("body-parser");
 
